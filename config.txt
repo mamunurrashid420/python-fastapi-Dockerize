@@ -1,0 +1,17 @@
+First of all create a virtual environment setup 
+
+#  python3 -m venv env
+
+Activate the Virtual Environment:
+For Windows:
+# source .\env\Scripts\activate
+
+For Linux: 
+# source env/bin/activate
+
+Now install in fastapi and uvicorn 
+# pip3 install fastapi uvicorn
+Run in python application  
+# uvicorn.exe main:app --reload --port=8000 --host=0.0.0.0
+stop this application 
+pip3 freeze > requirements.txt
